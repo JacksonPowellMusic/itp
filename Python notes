@@ -1,0 +1,80 @@
+### Python Notes
+## Chapter 1
+
+I know essentially nothing about coding. (or at least I did it the beginning
+of this course.)
+Likely the most important thing I learned from chapter 1 would be the basic
+elements of coding.
+
+input:
+Get data from the keyboard, a file, the network, or some other device.
+
+output:
+Display data on the screen, save it in a file, send it over the network, etc.
+
+math:
+Perform basic mathematical operations like addition and multiplication.
+
+conditional execution:
+Check for certain conditions and run the appropriate code.
+
+repetition:
+Perform some action repeatedly, usually with some variation.
+
+The difference between " " and ' ' is very important. Python is also case-
+sensitive.
+
+Something I already knew was the importance of values and types.
+
+A value or class is something basic like a word or a number.
+For number values 2 is an integer and 42.0 is a floating-point number.
+'Hello, World!' is a string.
+
+Another piece of new information:
+1,000,000 is not a legal integer in Python, but it is legal:
+
+>>> 1,000,000
+(1, 0, 0)
+Python interprets 1,000,000 as a comma-separated sequence of integers.
+
+
+## Chapter 3
+Some things I KNEW
+
+Function is what it sounds like. You can “call” the function by name.
+This tells you what you're dealing with.
+The result is also called the return value.
+Converting floating point to integer it rounds down so 3.99999 would be 3 and
+2.1 would be 2.
+
+Some things I DIDN'T know
+
+dot notation is when you specify the name of the module
+and the name of the function, separated by a dot.
+So, for instance, I could use " math.log10 "" to compute a signal-to-noise ratio
+in decibels (assuming that signal_power and noise_power are defined).
+
+">>> ratio = signal_power / noise_power
+>>> decibels = 10 * math.log10(ratio)"
+
+
+## chapter 5
+
+Things I knew:
+python works sequentially ( line by line )
+This is helpful when factoring in Conditionals and recursion. What conditionals
+have you introduced etc.
+A boolean expression is an expression that is either true or false. It either is
+or isnt. So 5 == 5
+True.
+
+Things I didn't know:
+
+In Python, the modulus operator is a percent sign ( % ).
+The syntax is the same as for other operators.
+Example:
+>>> remainder = minutes % 60
+>>> remainder
+45
+and, or, and not. (3 logical operators )
+if (Conditional operators and alternative execution)
